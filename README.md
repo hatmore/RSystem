@@ -1,3 +1,5 @@
+**中文** | [English](README.en.md)
+
 # RSystem（远程控制系统）
 
 C/S 架构的 Windows 远程控制系统：**被控端 RemoteCtrl** 运行在目标机器上，**控制端 RemoteClient** 连接后可以采集设备信息、浏览与传输文件、远程查看屏幕并操作鼠标、锁定/解锁被控机。两端均使用 **MFC** 开发，网络层直接基于 Winsock TCP。
